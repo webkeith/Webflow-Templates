@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Block library — Client-First sections for Webflow</title>
+<style>
+{{CSS}}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<div class="app">
+  <aside class="side" aria-label="Library navigation">
+    <div class="side_brand">
+      <span class="side_mark">{{LEAF}}</span>
+      <div>
+        <p class="side_name">Block library</p>
+        <p class="side_sub">Client-First sections for Webflow</p>
+      </div>
+    </div>
+    <nav class="side_nav" aria-label="Sections">
+      <div class="side_group">
+        <p class="side_label">Categories</p>
+        <ul class="side_list">{{SIDE_BLOCKS}}</ul>
+      </div>
+      <div class="side_group">
+        <p class="side_label">Tools</p>
+        <ul class="side_list">{{SIDE_TOOLS}}</ul>
+      </div>
+    </nav>
+  </aside>
+
+  <main class="main" id="main">
+    <div class="main_inner">
+      <header class="head">
+        <div>
+          <h1 class="head_title" id="view-title" tabindex="-1">All blocks</h1>
+          <p class="head_meta" id="view-meta" aria-live="polite"></p>
+        </div>
+        <div class="segmented" role="group" aria-label="Filter by template" data-tpl-control>{{TPL_BUTTONS}}</div>
+      </header>
+
+      <section data-view-panel="blocks" aria-labelledby="view-title">
+        <div class="intro">
+          <p>Copy a block, paste it in the Webflow Designer. Use Chrome or Edge, opened directly (not inside a preview pane).</p>
+          <details>
+            <summary>How to paste</summary>
+            <p>Each template is its own Client-First system. Paste its <strong>Global styles</strong> block once per project, then any of its sections.</p>
+            <ul>{{TPL_NOTES}}</ul>
+          </details>
+        </div>
+        {{BLOCKS}}
+        <p class="empty" data-empty hidden>No blocks match this category and template. Choose another template or “All blocks”.</p>
+      </section>
+
+      <section class="panel" data-view-panel="images" hidden aria-labelledby="view-title">
+        <p class="panel_lead">Every image slot in the SaaS blocks points to a key below. Upload the files from <code>dist/images</code> to your Webflow Assets, paste each asset URL here, and every block you copy afterwards uses your hosted images. URLs are saved in this browser. Keys without a URL use the placeholder's URL; if that's empty too, they point at the local file, which Webflow can't reach.</p>
+        <p class="status" data-img-status aria-live="polite"></p>
+        <ul class="img_list">{{IMAGES}}</ul>
+      </section>
+
+      <section class="panel" data-view-panel="checks" hidden aria-labelledby="view-title">
+        <div class="step">
+          <h2 class="step_title">1. Check the clipboard</h2>
+          <p>Click any <strong>Copy to Webflow</strong>, click the box below and press Cmd/Ctrl + V. It confirms whether the clipboard holds Webflow data.</p>
+          <div class="inspector" tabindex="0" role="textbox" aria-label="Paste here to check the clipboard" contenteditable="true"></div>
+          <p class="inspector_out" aria-live="polite">Waiting for a paste…</p>
+        </div>
+        <div class="step">
+          <h2 class="step_title">2. Test in Webflow</h2>
+          <p>If the data is there but Webflow pastes nothing, paste each test into an empty page and tell me which appear.</p>
+          <ul class="tests">{{TESTS}}</ul>
+        </div>
+        <div class="step">
+          <h2 class="step_title">3. Calibrate interactions from a real Webflow copy</h2>
+          <p>Webflow doesn't document how interactions are stored on the clipboard. In the Designer, select any element that has a classic <strong>Mouse hover</strong> interaction set on its class (and, ideally, a combo class), press Cmd/Ctrl + C, then click the box below and press Cmd/Ctrl + V. The library compares Webflow's real data with what it generates and adapts future copies.</p>
+          <div class="inspector" data-calibrate tabindex="0" role="textbox" aria-label="Paste a copied Webflow element here to calibrate" contenteditable="true"></div>
+          <ul class="calib" data-calib-report aria-live="polite"></ul>
+          <div class="calib_actions">
+            <button type="button" class="btn is-quiet" data-calib-download hidden>Download captured sample</button>
+            <button type="button" class="link-btn" data-calib-reset hidden>Reset calibration</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</div>
+<div class="toast" role="status" aria-live="polite"></div>
+{{DATA}}
+<script>
+{{JS}}
+</script>
+</body>
+</html>

@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SaaS / B2B services — wireframe template</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 18l6-6M13 6l6 6"/></symbol>
+<symbol id="i-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V7z"/><path d="M9 12l2 2 4-4"/></symbol>
+<symbol id="i-badge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M9 14.5L8 21l4-2 4 2-1-6.5"/></symbol>
+<symbol id="i-flag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4M5 4h11l-2 4 2 4H5"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></symbol>
+<symbol id="i-image" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5v14l11-7z" fill="currentColor"/></symbol>
+<symbol id="i-quote" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10 7H6a2 2 0 0 0-2 2v4h6V7zM10 13c0 3-2 5-5 5M20 7h-4a2 2 0 0 0-2 2v4h6V7zM20 13c0 3-2 5-5 5"/></symbol>
+<symbol id="i-cube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16M20 4L4 20"/></symbol>
+<symbol id="i-linkedin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></symbol>
+<symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5v.01"/></symbol>
+<symbol id="i-youtube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z"/></symbol>
+</svg>
+<div class="page-wrapper">
+
+<header class="navbar1_component">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="navbar1_container">
+        <a href="#" class="navbar1_logo-link" aria-label="Home"><span class="navbar1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span></a>
+        <nav class="navbar1_menu" id="navbar1-menu" aria-label="Main">
+          <div class="navbar1_dropdown"><button type="button" class="navbar1_dropdown-toggle" aria-expanded="false" aria-controls="dd-solutions">Solutions<svg class="navbar1_dropdown-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron"/></svg></button><div class="navbar1_dropdown-list" id="dd-solutions"><a href="#" class="navbar1_dropdown-link">Link one</a><a href="#" class="navbar1_dropdown-link">Link two</a><a href="#" class="navbar1_dropdown-link">Link three</a><a href="#" class="navbar1_dropdown-link">Link four</a><a href="#" class="navbar1_dropdown-link">Link five</a></div></div>
+          <div class="navbar1_dropdown is-mega"><button type="button" class="navbar1_dropdown-toggle" aria-expanded="false" aria-controls="dd-services">Services<svg class="navbar1_dropdown-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron"/></svg></button><div class="navbar1_dropdown-list" id="dd-services"><div class="navbar1_mega-grid"><a href="#" class="navbar1_dropdown-link">Service one</a><a href="#" class="navbar1_dropdown-link">Service two</a><a href="#" class="navbar1_dropdown-link">Service three</a><a href="#" class="navbar1_dropdown-link">Service four</a><a href="#" class="navbar1_dropdown-link">Service five</a><a href="#" class="navbar1_dropdown-link">Service six</a><a href="#" class="navbar1_dropdown-link">Service seven</a><a href="#" class="navbar1_dropdown-link">Service eight</a><a href="#" class="navbar1_dropdown-link">Service nine</a><a href="#" class="navbar1_dropdown-link">Service ten</a><a href="#" class="navbar1_dropdown-link">Service eleven</a><a href="#" class="navbar1_dropdown-link">Service twelve</a><a href="#" class="navbar1_dropdown-link">Service thirteen</a><a href="#" class="navbar1_dropdown-link">Service fourteen</a><a href="#" class="navbar1_dropdown-link">Service fifteen</a><a href="#" class="navbar1_dropdown-link">Service sixteen</a></div></div></div>
+          <div class="navbar1_dropdown is-mega"><button type="button" class="navbar1_dropdown-toggle" aria-expanded="false" aria-controls="dd-industries">Industries<svg class="navbar1_dropdown-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron"/></svg></button><div class="navbar1_dropdown-list" id="dd-industries"><div class="navbar1_mega-grid"><a href="#" class="navbar1_dropdown-link">Industry one</a><a href="#" class="navbar1_dropdown-link">Industry two</a><a href="#" class="navbar1_dropdown-link">Industry three</a><a href="#" class="navbar1_dropdown-link">Industry four</a><a href="#" class="navbar1_dropdown-link">Industry five</a><a href="#" class="navbar1_dropdown-link">Industry six</a><a href="#" class="navbar1_dropdown-link">Industry seven</a><a href="#" class="navbar1_dropdown-link">Industry eight</a><a href="#" class="navbar1_dropdown-link">Industry nine</a><a href="#" class="navbar1_dropdown-link">Industry ten</a><a href="#" class="navbar1_dropdown-link">Industry eleven</a><a href="#" class="navbar1_dropdown-link">Industry twelve</a></div></div></div>
+          <div class="navbar1_dropdown"><button type="button" class="navbar1_dropdown-toggle" aria-expanded="false" aria-controls="dd-resources">Resources<svg class="navbar1_dropdown-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-chevron"/></svg></button><div class="navbar1_dropdown-list" id="dd-resources"><a href="#" class="navbar1_dropdown-link">Link one</a><a href="#" class="navbar1_dropdown-link">Link two</a><a href="#" class="navbar1_dropdown-link">Link three</a><a href="#" class="navbar1_dropdown-link">Link four</a></div></div>
+          <a href="#" class="navbar1_link">About</a>
+        </nav>
+        <div class="navbar1_button-wrapper">
+          <a href="#" class="navbar1_link">Log in</a>
+          <a href="#" class="navbar1_link">Pricing</a>
+          <a href="#" class="button is-small">Contact us</a>
+          <button type="button" class="navbar1_menu-button" aria-expanded="false" aria-controls="navbar1-menu" aria-label="Open menu"><span class="icon-embed-small" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-menu"/></svg></span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="main-wrapper">
+
+<section class="section_header1 background-color-black">
+  <div class="header1_background">
+    <img src="lib-image:hero-team" alt="A small team working together around a table in a bright, modern office" class="header1_background-media" loading="eager">
+    <div class="header1_overlay"></div>
+  </div>
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="header1_component">
+          <div class="header1_content">
+            <div class="margin-bottom margin-medium">
+              <h1 class="heading-style-h1">Medium length hero headline goes here</h1>
+            </div>
+            <div class="margin-bottom margin-large">
+              <p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>
+            </div>
+            <div class="button-group">
+              <a href="#" class="button is-alternate">Get started</a>
+              <a href="#" class="button is-secondary-alternate">Schedule a call</a>
+            </div>
+          </div>
+          <div class="header1_trust-list">
+              <div class="header1_trust-item">
+                <div class="header1_trust-icon"><span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-badge"/></svg></span></div>
+                <div><p class="text-weight-semibold">Accreditation</p><p class="text-size-small text-style-muted">Short supporting line</p></div>
+              </div>
+              <div class="header1_trust-item">
+                <div class="header1_trust-icon"><span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-shield"/></svg></span></div>
+                <div><p class="text-weight-semibold">Certification</p><p class="text-size-small text-style-muted">Short supporting line</p></div>
+              </div>
+              <div class="header1_trust-item">
+                <div class="header1_trust-icon"><span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-flag"/></svg></span></div>
+                <div><p class="text-weight-semibold">Local team</p><p class="text-size-small text-style-muted">Short supporting line</p></div>
+              </div>
+              <div class="header1_trust-item">
+                <div class="header1_trust-icon"><span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-search"/></svg></span></div>
+                <div><p class="text-weight-semibold">Licensed</p><p class="text-size-small text-style-muted">Short supporting line</p></div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_process1 background-color-white">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="process1_component">
+          <div class="process1_content">
+            <div class="margin-bottom margin-small"><p class="text-style-tagline">Tagline</p></div>
+            <div class="margin-bottom margin-small"><h2 class="heading-style-h2">Short heading for a step-by-step process</h2></div>
+            <div class="margin-bottom margin-xlarge"><p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p></div>
+            <ul class="process1_list">
+                <li class="process1_item">
+                  <div class="process1_marker"><span class="process1_number">1</span><span class="process1_line"></span></div>
+                  <div>
+                    <p class="text-size-small text-weight-semibold">Step 1</p>
+                    <div class="margin-top margin-xxsmall"><h3 class="heading-style-h5">Short step heading goes here</h3></div>
+                    <div class="margin-top margin-xsmall"><p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p></div>
+                  </div>
+                </li>
+                <li class="process1_item">
+                  <div class="process1_marker"><span class="process1_number">2</span><span class="process1_line"></span></div>
+                  <div>
+                    <p class="text-size-small text-weight-semibold">Step 2</p>
+                    <div class="margin-top margin-xxsmall"><h3 class="heading-style-h5">Short step heading goes here</h3></div>
+                    <div class="margin-top margin-xsmall"><p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p></div>
+                  </div>
+                </li>
+                <li class="process1_item">
+                  <div class="process1_marker"><span class="process1_number">3</span><span class="process1_line"></span></div>
+                  <div>
+                    <p class="text-size-small text-weight-semibold">Step 3</p>
+                    <div class="margin-top margin-xxsmall"><h3 class="heading-style-h5">Short step heading goes here</h3></div>
+                    <div class="margin-top margin-xsmall"><p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p></div>
+                  </div>
+                </li>
+                <li class="process1_item">
+                  <div class="process1_marker"><span class="process1_number">4</span></div>
+                  <div>
+                    <p class="text-size-small text-weight-semibold">Step 4</p>
+                    <div class="margin-top margin-xxsmall"><h3 class="heading-style-h5">Short step heading goes here</h3></div>
+                    <div class="margin-top margin-xsmall"><p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p></div>
+                  </div>
+                </li>
+            </ul>
+            <a href="#" class="button is-link">See a demo<span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></span></a>
+          </div>
+          <img src="lib-image:mobile-hand" alt="A hand holding a smartphone with a simple app screen" class="process1_image" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_feature1 background-color-gray">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="feature1_component">
+          <div class="feature1_content">
+            <div class="margin-bottom margin-small"><p class="text-style-tagline">Tagline</p></div>
+            <div class="margin-bottom margin-small"><h2 class="heading-style-h2">Medium length section heading goes here</h2></div>
+            <div class="margin-bottom margin-large"><p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p></div>
+            <div class="feature1_list">
+              <div class="feature1_item">
+                <h3 class="heading-style-h6">Feature name one</h3>
+                <div class="margin-top margin-xxsmall"><p class="text-style-muted">Short description of what this feature does for the customer.</p></div>
+                <div class="margin-top margin-xsmall"><a href="#" class="button is-link">Learn more<span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></span></a></div>
+              </div>
+              <div class="feature1_item">
+                <h3 class="heading-style-h6">Feature name two</h3>
+                <div class="margin-top margin-xxsmall"><p class="text-style-muted">Short description of what this feature does for the customer.</p></div>
+                <div class="margin-top margin-xsmall"><a href="#" class="button is-link">Learn more<span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></span></a></div>
+              </div>
+              <div class="feature1_item">
+                <h3 class="heading-style-h6">Feature name three</h3>
+                <div class="margin-top margin-xxsmall"><p class="text-style-muted">Short description of what this feature does for the customer.</p></div>
+                <div class="margin-top margin-xsmall"><a href="#" class="button is-link">Learn more<span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></span></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="feature1_visual">
+            <img src="lib-image:feature-laptop" alt="A laptop on a desk showing an abstract analytics dashboard" class="feature1_image" loading="lazy">
+            <div class="feature1_stat-card">
+              <p class="text-size-small text-style-muted">Card label</p>
+              <div class="margin-top margin-xxsmall margin-bottom margin-small"><p class="heading-style-h6">Dashboard summary</p></div>
+              <div class="feature1_stat-row"><span class="text-style-muted">Metric label</span><span class="text-weight-semibold">Up to 90%</span></div><div class="feature1_stat-row"><span class="text-style-muted">Metric label</span><span class="text-weight-semibold">100%</span></div><div class="feature1_stat-row"><span class="text-style-muted">Metric label</span><span class="text-weight-semibold">24/7</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_signup1 background-color-white">
+  <div class="padding-global">
+    <div class="container-medium">
+      <div class="padding-section-medium">
+        <div class="signup1_component">
+          <div class="margin-bottom margin-xsmall"><h2 class="heading-style-h4">Short heading for a lead magnet</h2></div>
+          <div class="margin-bottom margin-medium"><p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+          <div class="signup1_form" data-wf-embed><form class="form_inline" action="#" method="post"><label class="hide" for="signup1-email">Email</label><input class="form_input" type="email" id="signup1-email" name="email" placeholder="Enter your email" autocomplete="email" required><button class="form_button" type="submit">Get report</button></form><p class="form_note">No spam. Unsubscribe anytime.</p></div>
+          <div class="margin-top margin-small"><a href="#" class="button is-link">Learn more about this offer<span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></span></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_layout1 background-color-white">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="layout1_component">
+          <div class="layout1_media">
+            <img src="lib-image:meeting-conversation" alt="Two colleagues in conversation at a table, one listening and taking notes" class="layout1_image" loading="lazy">
+            <a href="#" class="layout1_play" aria-label="Play video"><span class="icon-embed-small" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-play"/></svg></span></a>
+          </div>
+          <div class="layout1_content">
+            <div class="margin-bottom margin-small"><p class="text-style-tagline">Tagline</p></div>
+            <div class="margin-bottom margin-small"><h2 class="heading-style-h2">Medium length section heading goes here</h2></div>
+            <p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_feature2 background-color-gray">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="feature2_component">
+          <div class="feature2_content">
+            <div class="margin-bottom margin-small"><p class="text-style-tagline">Tagline</p></div>
+            <div class="margin-bottom margin-small"><h2 class="heading-style-h2">Every feature you need. One platform.</h2></div>
+            <div class="margin-bottom margin-large"><p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p></div>
+            <ul class="check-list"><li class="check-list_item"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Short benefit statement goes here</span></li><li class="check-list_item"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Short benefit statement goes here</span></li><li class="check-list_item"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Short benefit statement goes here</span></li></ul>
+          </div>
+          <div>
+            <img src="lib-image:placeholder" alt="" class="feature2_map" loading="lazy">
+            <div class="margin-top margin-small"><a href="#" class="button is-link">View all locations<span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-arrow"/></svg></span></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_layout2 background-color-white">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="margin-bottom margin-xxlarge">
+          <div class="layout2_header">
+            <div class="margin-bottom margin-small"><h2 class="heading-style-h2">Medium length section heading goes here</h2></div>
+            <p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          </div>
+        </div>
+        <div class="layout2_component">
+          <img src="lib-image:portrait-support" alt="A smiling support specialist wearing a headset at her desk" class="layout2_image" loading="lazy">
+          <div class="layout2_list">
+              <div class="layout2_item">
+                <span class="icon-embed-medium" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-cube"/></svg></span>
+                <div>
+                  <h3 class="heading-style-h5">Short heading goes here</h3>
+                  <div class="margin-top margin-xsmall"><p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p></div>
+                </div>
+              </div>
+              <div class="layout2_item">
+                <span class="icon-embed-medium" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-cube"/></svg></span>
+                <div>
+                  <h3 class="heading-style-h5">Short heading goes here</h3>
+                  <div class="margin-top margin-xsmall"><p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p></div>
+                </div>
+              </div>
+              <div class="layout2_item">
+                <span class="icon-embed-medium" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-cube"/></svg></span>
+                <div>
+                  <h3 class="heading-style-h5">Short heading goes here</h3>
+                  <div class="margin-top margin-xsmall"><p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p></div>
+                </div>
+              </div>
+            <div><a href="#" class="button is-secondary">Learn more</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_testimonial1 background-color-gray">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="margin-bottom margin-xxlarge">
+          <div class="max-width-large align-center text-align-center">
+            <div class="margin-bottom margin-small"><h2 class="heading-style-h2">Customer testimonials</h2></div>
+            <p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="testimonial1_list">
+          <div class="testimonial1_card">
+            <div>
+              <span class="testimonial1_quote-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-quote"/></svg></span>
+              <div class="margin-top margin-small"><h3 class="heading-style-h6">Short testimonial title</h3></div>
+              <div class="margin-top margin-xsmall"><p class="text-style-muted">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."</p></div>
+            </div>
+            <div class="testimonial1_client">
+              <div class="testimonial1_avatar" aria-hidden="true">A</div>
+              <div><p class="text-weight-semibold">Name Surname</p><p class="text-size-small text-style-muted">Position, Company name</p></div>
+            </div>
+          </div>
+          <div class="testimonial1_card">
+            <div>
+              <span class="testimonial1_quote-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-quote"/></svg></span>
+              <div class="margin-top margin-small"><h3 class="heading-style-h6">Short testimonial title</h3></div>
+              <div class="margin-top margin-xsmall"><p class="text-style-muted">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."</p></div>
+            </div>
+            <div class="testimonial1_client">
+              <div class="testimonial1_avatar" aria-hidden="true">B</div>
+              <div><p class="text-weight-semibold">Name Surname</p><p class="text-size-small text-style-muted">Position, Company name</p></div>
+            </div>
+          </div>
+          <div class="testimonial1_card">
+            <div>
+              <span class="testimonial1_quote-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-quote"/></svg></span>
+              <div class="margin-top margin-small"><h3 class="heading-style-h6">Short testimonial title</h3></div>
+              <div class="margin-top margin-xsmall"><p class="text-style-muted">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."</p></div>
+            </div>
+            <div class="testimonial1_client">
+              <div class="testimonial1_avatar" aria-hidden="true">C</div>
+              <div><p class="text-weight-semibold">Name Surname</p><p class="text-size-small text-style-muted">Position, Company name</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_pricing1 background-color-white">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="margin-bottom margin-xxlarge">
+          <div class="pricing1_header">
+            <div class="margin-bottom margin-small"><p class="text-style-tagline">Tagline</p></div>
+            <div class="margin-bottom margin-small"><h2 class="heading-style-h2">Simple pricing</h2></div>
+            <p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          </div>
+        </div>
+        <div class="pricing1_list">
+          <div class="pricing1_card">
+            
+            <h3 class="heading-style-h6">Basic plan</h3>
+            <div class="margin-top margin-small"><div class="pricing1_price"><span class="pricing1_price-value">$19</span><span class="text-style-muted">/ unit</span></div></div>
+            <div class="margin-top margin-xsmall"><p class="text-size-small text-style-muted">Short qualifier line</p></div>
+            <div class="pricing1_divider"></div>
+            <ul class="pricing1_feature-list"><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li></ul>
+            <a href="#" class="button is-secondary is-full">Get started</a>
+          </div>
+          <div class="pricing1_card is-featured">
+            <span class="pricing1_badge">Most popular</span>
+            <h3 class="heading-style-h6">Business plan</h3>
+            <div class="margin-top margin-small"><div class="pricing1_price"><span class="pricing1_price-value">$29</span><span class="text-style-muted">/ unit</span></div></div>
+            <div class="margin-top margin-xsmall"><p class="text-size-small text-style-muted">Short qualifier line</p></div>
+            <div class="pricing1_divider"></div>
+            <ul class="pricing1_feature-list"><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li></ul>
+            <a href="#" class="button is-full">Get started</a>
+          </div>
+          <div class="pricing1_card">
+            
+            <h3 class="heading-style-h6">Enterprise plan</h3>
+            <div class="margin-top margin-small"><div class="pricing1_price"><span class="pricing1_price-value">$49</span><span class="text-style-muted">/ unit</span></div></div>
+            <div class="margin-top margin-xsmall"><p class="text-size-small text-style-muted">Short qualifier line</p></div>
+            <div class="pricing1_divider"></div>
+            <ul class="pricing1_feature-list"><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li><li class="pricing1_feature"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Feature text goes here</span></li></ul>
+            <a href="#" class="button is-secondary is-full">Get started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_logo1 background-color-white">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-medium">
+        <div class="margin-bottom margin-large"><h2 class="heading-style-h6 text-align-center">Trusted by the world's best companies</h2></div>
+      </div>
+    </div>
+  </div>
+  <div class="logo1_marquee" aria-label="Partner logos">
+    <div class="logo1_track"><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span></div>
+    <div class="logo1_track" aria-hidden="true"><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span><span class="logo1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span></div>
+  </div>
+  <div class="padding-section-small"></div>
+</section>
+
+<section class="section_feature3 background-color-white">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="margin-bottom margin-xxlarge">
+          <div class="feature3_header">
+            <div class="margin-bottom margin-small"><p class="text-style-tagline">Tagline</p></div>
+            <h2 class="heading-style-h2">Medium length section heading goes here</h2>
+          </div>
+        </div>
+        <div class="feature3_grid">
+          <div>
+            <h3 class="heading-style-h5">Short feature heading goes here</h3>
+            <div class="margin-top margin-xsmall"><p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p></div>
+          </div>
+          <div>
+            <h3 class="heading-style-h5">Short feature heading goes here</h3>
+            <div class="margin-top margin-xsmall"><p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p></div>
+          </div>
+          <div>
+            <h3 class="heading-style-h5">Short feature heading goes here</h3>
+            <div class="margin-top margin-xsmall"><p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p></div>
+          </div>
+          <div>
+            <h3 class="heading-style-h5">Short feature heading goes here</h3>
+            <div class="margin-top margin-xsmall"><p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p></div>
+          </div>
+        </div>
+        <div class="margin-top margin-xxlarge margin-bottom margin-xxlarge"><div class="feature3_stats"><div><p class="feature3_stat-value">100%</p><p class="text-style-muted">Short stat label</p></div><div><p class="feature3_stat-value">50+</p><p class="text-style-muted">Short stat label</p></div><div><p class="feature3_stat-value">0</p><p class="text-style-muted">Short stat label</p></div><div><p class="feature3_stat-value">24/7</p><p class="text-style-muted">Short stat label</p></div></div></div>
+        <img src="lib-image:architecture" alt="Modern glass and concrete building facade under a clear sky" class="feature3_image" loading="lazy">
+        <div class="margin-top margin-small"><p class="text-size-small text-style-muted text-align-center">Short image caption goes here.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_blog1 background-color-gray">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="margin-bottom margin-xxlarge">
+          <div class="blog1_header">
+            <div class="max-width-large">
+              <div class="margin-bottom margin-small"><p class="text-style-tagline">Blog</p></div>
+              <div class="margin-bottom margin-small"><h2 class="heading-style-h2">Short heading goes here</h2></div>
+              <p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <a href="#" class="button is-secondary">View all</a>
+          </div>
+        </div>
+        <div class="blog1_list" role="list">
+          <article class="blog1_item" role="listitem">
+            <div class="blog1_image-wrapper"><img src="lib-image:workspace-flatlay" alt="Top-down view of a desk with an open notebook, pen, coffee and a small plant" class="blog1_image" loading="lazy"></div>
+            <div class="blog1_content">
+              <div class="blog1_meta"><span class="blog1_tag">Category</span><span class="text-style-muted">5 min read</span></div>
+              <h3 class="heading-style-h5"><a href="#" class="blog1_title-link">Blog title heading will go here</a></h3>
+              <p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+              <div class="blog1_footer"><span>Author Name · Jan 1, 2026</span><span class="text-weight-semibold">Read</span></div>
+            </div>
+          </article>
+          <article class="blog1_item" role="listitem">
+            <div class="blog1_image-wrapper"><img src="lib-image:architecture" alt="Modern glass and concrete building facade under a clear sky" class="blog1_image" loading="lazy"></div>
+            <div class="blog1_content">
+              <div class="blog1_meta"><span class="blog1_tag">Category</span><span class="text-style-muted">5 min read</span></div>
+              <h3 class="heading-style-h5"><a href="#" class="blog1_title-link">Blog title heading will go here</a></h3>
+              <p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+              <div class="blog1_footer"><span>Author Name · Jan 1, 2026</span><span class="text-weight-semibold">Read</span></div>
+            </div>
+          </article>
+          <article class="blog1_item" role="listitem">
+            <div class="blog1_image-wrapper"><img src="lib-image:landscape-dusk" alt="A person seen from behind sitting on a hillside, looking toward the sunset" class="blog1_image" loading="lazy"></div>
+            <div class="blog1_content">
+              <div class="blog1_meta"><span class="blog1_tag">Category</span><span class="text-style-muted">5 min read</span></div>
+              <h3 class="heading-style-h5"><a href="#" class="blog1_title-link">Blog title heading will go here</a></h3>
+              <p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+              <div class="blog1_footer"><span>Author Name · Jan 1, 2026</span><span class="text-weight-semibold">Read</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_contact1 background-color-black">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="contact1_component">
+          <div class="contact1_content">
+            <div class="margin-bottom margin-small"><p class="text-style-tagline">Contact</p></div>
+            <div class="margin-bottom margin-small"><h2 class="heading-style-h2">Medium length heading for a contact form</h2></div>
+            <div class="margin-bottom margin-large"><p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p></div>
+            <ul class="check-list"><li class="check-list_item"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Short benefit statement goes here</span></li><li class="check-list_item"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Short benefit statement goes here</span></li><li class="check-list_item"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Short benefit statement goes here</span></li><li class="check-list_item"><span class="check-list_icon" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span><span>Short benefit statement goes here</span></li></ul>
+          </div>
+          <div class="contact1_card">
+            <div class="margin-bottom margin-xsmall"><h3 class="heading-style-h5">Send us a message</h3></div>
+            <div class="margin-bottom margin-medium"><p class="text-style-muted">Short line about response time.</p></div>
+            <div class="contact1_form" data-wf-embed><form action="#" method="post"><div class="form_field-grid">
+<div class="form_field"><label class="form_label" for="c1-name">Full name</label><input class="form_input" id="c1-name" name="name" type="text" autocomplete="name" required></div>
+<div class="form_field"><label class="form_label" for="c1-company">Company</label><input class="form_input" id="c1-company" name="company" type="text" autocomplete="organization"></div>
+<div class="form_field"><label class="form_label" for="c1-email">Work email</label><input class="form_input" id="c1-email" name="email" type="email" autocomplete="email" required></div>
+<div class="form_field"><label class="form_label" for="c1-phone">Phone</label><input class="form_input" id="c1-phone" name="phone" type="tel" autocomplete="tel"></div>
+<div class="form_field"><label class="form_label" for="c1-size">Select one</label><select class="form_input" id="c1-size" name="size"><option value="">Select one…</option><option>First choice</option><option>Second choice</option><option>Third choice</option></select></div>
+<div class="form_field"><label class="form_label" for="c1-industry">Select one</label><select class="form_input" id="c1-industry" name="industry"><option value="">Select one…</option><option>First choice</option><option>Second choice</option><option>Third choice</option></select></div>
+<div class="form_field is-full"><label class="form_label" for="c1-message">Message</label><textarea class="form_input is-textarea" id="c1-message" name="message" placeholder="Type your message…"></textarea></div>
+<div class="form_field is-full"><button class="form_button is-full" type="submit">Send message</button><p class="form_note">Short consent or privacy note goes here.</p></div>
+</div></form></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_header2 background-color-gray">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="header2_component">
+        <div class="header2_content">
+          <div class="margin-bottom margin-small"><p class="text-style-tagline">Tagline</p></div>
+          <div class="margin-bottom margin-medium"><h1 class="heading-style-h1">Medium length hero headline goes here</h1></div>
+          <div class="margin-bottom margin-large"><p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p></div>
+          <div class="button-group">
+            <a href="#" class="button">Primary action</a>
+            <a href="#" class="button is-secondary">Secondary action</a>
+          </div>
+        </div>
+        <div class="header2_visual">
+          <img src="lib-image:feature-laptop" alt="A laptop on a desk showing an abstract analytics dashboard" class="header2_image" loading="eager">
+          <div class="header2_status">
+            <span class="header2_status-icon"><span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-check"/></svg></span></span>
+            <div>
+              <p class="text-size-small text-weight-semibold">Status label</p>
+              <p class="text-size-small text-style-muted">Name S. · Approved</p>
+              <p class="text-size-tiny text-style-muted">Short detail line</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header2_trust">
+    <div class="padding-global">
+      <div class="container-large">
+        <div class="header2_trust-list"><div class="header2_trust-item"><span class="header2_trust-icon"><span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-badge"/></svg></span></span><div><p class="text-weight-semibold">Accreditation</p><p class="text-size-small text-style-muted">Short supporting line</p></div></div><div class="header2_trust-item"><span class="header2_trust-icon"><span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-shield"/></svg></span></span><div><p class="text-weight-semibold">Certification</p><p class="text-size-small text-style-muted">Short supporting line</p></div></div><div class="header2_trust-item"><span class="header2_trust-icon"><span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-flag"/></svg></span></span><div><p class="text-weight-semibold">Local team</p><p class="text-size-small text-style-muted">Short supporting line</p></div></div><div class="header2_trust-item"><span class="header2_trust-icon"><span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-search"/></svg></span></span><div><p class="text-weight-semibold">Licensed</p><p class="text-size-small text-style-muted">Short supporting line</p></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_feature4 background-color-white">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="margin-bottom margin-xxlarge">
+          <div class="max-width-large align-center text-align-center">
+            <div class="margin-bottom margin-small"><p class="text-style-tagline">Tagline</p></div>
+            <h2 class="heading-style-h2">Medium length section heading goes here</h2>
+          </div>
+        </div>
+        <div class="feature4_component">
+          <div class="feature4_column"><div class="feature4_item">
+              <span class="feature4_icon"><span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-cube"/></svg></span></span>
+              <h3 class="heading-style-h6">Feature name one</h3>
+              <p class="text-style-muted">Short description of the benefit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div><div class="feature4_item">
+              <span class="feature4_icon"><span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-cube"/></svg></span></span>
+              <h3 class="heading-style-h6">Feature name two</h3>
+              <p class="text-style-muted">Short description of the benefit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div></div>
+          <div class="feature4_visual"><img src="lib-image:workspace-flatlay" alt="Top-down view of a desk with an open notebook, pen, coffee and a small plant" class="feature4_image" loading="lazy"></div>
+          <div class="feature4_column"><div class="feature4_item">
+              <span class="feature4_icon"><span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-cube"/></svg></span></span>
+              <h3 class="heading-style-h6">Feature name three</h3>
+              <p class="text-style-muted">Short description of the benefit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div><div class="feature4_item">
+              <span class="feature4_icon"><span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-cube"/></svg></span></span>
+              <h3 class="heading-style-h6">Feature name four</h3>
+              <p class="text-style-muted">Short description of the benefit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div><div class="feature4_item">
+              <span class="feature4_icon"><span class="icon-embed-xsmall" aria-hidden="true"><svg viewBox="0 0 24 24"><use href="#i-cube"/></svg></span></span>
+              <h3 class="heading-style-h6">Feature name five</h3>
+              <p class="text-style-muted">Short description of the benefit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_stats1 background-color-black">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-medium">
+        <div class="stats1_list"><div class="stats1_item"><p class="stats1_value">90%</p><p class="text-weight-semibold">Short stat label</p><p class="text-size-small text-style-muted">Supporting detail</p></div><div class="stats1_item"><p class="stats1_value">$0</p><p class="text-weight-semibold">Short stat label</p><p class="text-size-small text-style-muted">Supporting detail</p></div><div class="stats1_item"><p class="stats1_value">5 min</p><p class="text-weight-semibold">Short stat label</p><p class="text-size-small text-style-muted">Supporting detail</p></div><div class="stats1_item"><p class="stats1_value">24/7</p><p class="text-weight-semibold">Short stat label</p><p class="text-size-small text-style-muted">Supporting detail</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_process2 background-color-gray">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="margin-bottom margin-xxlarge">
+          <div class="max-width-large">
+            <div class="margin-bottom margin-small"><p class="text-style-tagline">How it works</p></div>
+            <div class="margin-bottom margin-small"><h2 class="heading-style-h2">Short process heading goes here</h2></div>
+            <p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+          </div>
+        </div>
+        <div class="process2_list">
+          <div class="process2_item">
+            <div class="process2_marker"><span class="process2_number">1</span><span class="process2_line" aria-hidden="true"></span></div>
+            <p class="text-size-small text-weight-semibold text-style-muted">Step 1</p>
+            <h3 class="heading-style-h5">Short step heading</h3>
+            <p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+          </div>
+          <div class="process2_item">
+            <div class="process2_marker"><span class="process2_number">2</span><span class="process2_line" aria-hidden="true"></span></div>
+            <p class="text-size-small text-weight-semibold text-style-muted">Step 2</p>
+            <h3 class="heading-style-h5">Short step heading</h3>
+            <p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+          </div>
+          <div class="process2_item">
+            <div class="process2_marker"><span class="process2_number">3</span><span class="process2_line" aria-hidden="true"></span></div>
+            <p class="text-size-small text-weight-semibold text-style-muted">Step 3</p>
+            <h3 class="heading-style-h5">Short step heading</h3>
+            <p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+          </div>
+          <div class="process2_item">
+            <div class="process2_marker"><span class="process2_number">4</span><span class="process2_line" aria-hidden="true"></span></div>
+            <p class="text-size-small text-weight-semibold text-style-muted">Step 4</p>
+            <h3 class="heading-style-h5">Short step heading</h3>
+            <p class="text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_layout3 background-color-white">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="margin-bottom margin-xxlarge">
+          <div class="max-width-large align-center text-align-center">
+            <div class="margin-bottom margin-small"><p class="text-style-tagline">Tagline</p></div>
+            <h2 class="heading-style-h2">Medium length section heading goes here</h2>
+          </div>
+        </div>
+        <div class="layout3_list">
+          <div class="layout3_row">
+            <div class="layout3_media"><img src="lib-image:architecture" alt="Modern glass and concrete building facade under a clear sky" class="layout3_image" loading="lazy"></div>
+            <div class="layout3_content">
+              <div class="margin-bottom margin-xsmall"><p class="text-style-tagline">Tagline</p></div>
+              <div class="margin-bottom margin-small"><h3 class="heading-style-h3">Medium length heading goes here</h3></div>
+              <div class="margin-bottom margin-medium"><p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p></div>
+              <p class="layout3_note">Short highlighted takeaway for this row.</p>
+            </div>
+          </div>
+          <div class="layout3_row is-reversed">
+            <div class="layout3_media"><img src="lib-image:portrait-support" alt="A smiling support specialist wearing a headset at her desk" class="layout3_image" loading="lazy"></div>
+            <div class="layout3_content">
+              <div class="margin-bottom margin-xsmall"><p class="text-style-tagline">Tagline</p></div>
+              <div class="margin-bottom margin-small"><h3 class="heading-style-h3">Medium length heading goes here</h3></div>
+              <div class="margin-bottom margin-medium"><p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p></div>
+              <p class="layout3_note">Short highlighted takeaway for this row.</p>
+            </div>
+          </div>
+          <div class="layout3_row">
+            <div class="layout3_media"><img src="lib-image:meeting-conversation" alt="Two colleagues in conversation at a table, one listening and taking notes" class="layout3_image" loading="lazy"></div>
+            <div class="layout3_content">
+              <div class="margin-bottom margin-xsmall"><p class="text-style-tagline">Tagline</p></div>
+              <div class="margin-bottom margin-small"><h3 class="heading-style-h3">Medium length heading goes here</h3></div>
+              <div class="margin-bottom margin-medium"><p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p></div>
+              <p class="layout3_note">Short highlighted takeaway for this row.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section_signup2 background-color-white">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-large">
+        <div class="signup2_component">
+          <img src="lib-image:landscape-dusk" alt="A person seen from behind sitting on a hillside, looking toward the sunset" class="signup2_image" loading="lazy">
+          <div class="signup2_content">
+            <div class="margin-bottom margin-small"><p class="text-style-tagline">Newsletter</p></div>
+            <div class="margin-bottom margin-small"><h2 class="heading-style-h2">Subscribe to our newsletter</h2></div>
+            <div class="margin-bottom margin-large"><p class="text-size-medium text-style-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p></div>
+            <div class="signup2_form" data-wf-embed><form class="form_inline" action="#" method="post"><label class="hide" for="signup2-email">Email</label><input class="form_input" type="email" id="signup2-email" name="email" placeholder="Enter your email" autocomplete="email" required><button class="form_button" type="submit">Sign up</button></form><p class="form_note">By signing up you agree to our Terms and Conditions.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer1_component">
+  <div class="padding-global">
+    <div class="container-large">
+      <div class="padding-section-medium">
+        <div class="footer1_top">
+          <div>
+            <div class="margin-bottom margin-medium"><a href="#" class="footer1_logo-link" aria-label="Home"><span class="footer1_logo" aria-hidden="true"><svg viewBox="0 0 112 32"><rect x="1" y="6" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><text x="28" y="22" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="currentColor">Logo</text></svg></span></a></div>
+            <div class="margin-bottom margin-medium"><p class="text-size-small text-style-muted">Short company description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+            <div class="footer1_social-list"><a href="#" class="footer1_social-link" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-x"/></svg></a><a href="#" class="footer1_social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-linkedin"/></svg></a><a href="#" class="footer1_social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-instagram"/></svg></a><a href="#" class="footer1_social-link" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-youtube"/></svg></a></div>
+          </div>
+          <nav class="footer1_menu" aria-label="Footer">
+            <div>
+              <p class="footer1_menu-heading">Column one</p>
+              <ul class="footer1_link-list"><li><a href="#" class="footer1_link">Link text</a></li><li><a href="#" class="footer1_link">Link text</a></li><li><a href="#" class="footer1_link">Link text</a></li><li><a href="#" class="footer1_link">Link text</a></li></ul>
+            </div>
+            <div>
+              <p class="footer1_menu-heading">Column two</p>
+              <ul class="footer1_link-list"><li><a href="#" class="footer1_link">Link text</a></li><li><a href="#" class="footer1_link">Link text</a></li><li><a href="#" class="footer1_link">Link text</a></li><li><a href="#" class="footer1_link">Link text</a></li></ul>
+            </div>
+            <div>
+              <p class="footer1_menu-heading">Column three</p>
+              <ul class="footer1_link-list"><li><a href="#" class="footer1_link">Link text</a></li><li><a href="#" class="footer1_link">Link text</a></li><li><a href="#" class="footer1_link">Link text</a></li><li><a href="#" class="footer1_link">Link text</a></li><li><a href="#" class="footer1_link">Link text</a></li></ul>
+            </div>
+            <div>
+              <p class="footer1_menu-heading">Column four</p>
+              <ul class="footer1_link-list"><li><a href="#" class="footer1_link">Link text</a></li><li><a href="#" class="footer1_link">Link text</a></li></ul>
+            </div>
+            <div>
+              <p class="footer1_menu-heading">Column five</p>
+              <ul class="footer1_link-list"><li><a href="#" class="footer1_link">Link text</a></li><li><a href="#" class="footer1_link">Link text</a></li><li><a href="#" class="footer1_link">Link text</a></li></ul>
+            </div>
+          </nav>
+        </div>
+        <div class="margin-top margin-xxlarge">
+          <div class="footer1_bottom padding-top padding-medium">
+            <p>© 2026 Company name. All rights reserved.</p>
+            <div class="footer1_legal"><a href="#" class="footer1_link">Terms</a><a href="#" class="footer1_link">Privacy Policy</a><a href="#" class="footer1_link">Cookies</a><a href="#" class="footer1_link">Sitemap</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+<script src="nav.js"></script>
+</body>
+</html>

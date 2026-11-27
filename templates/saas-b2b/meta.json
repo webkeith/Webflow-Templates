@@ -1,0 +1,234 @@
+{
+  "slug": "saas-b2b",
+  "name": "SaaS / B2B services",
+  "source": "Layout patterns analysed from 3rddegreescreening.com homepage and Small Business solution page (structure only; placeholder copy, library images)",
+  "fonts": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+  "font_names": "Inter (400, 500, 600, 700)",
+  "blocks": [
+    {
+      "key": "navbar1",
+      "selector": "header.navbar1_component",
+      "name": "Navbar — mega menu",
+      "category": "Navbar",
+      "desc": "Logo, two simple dropdowns, two mega-menu dropdowns, link, text links + button. Mobile menu below 992px.",
+      "nav": true
+    },
+    {
+      "key": "header1",
+      "selector": "section.section_header1",
+      "name": "Header — media background + trust row",
+      "category": "Hero Header",
+      "desc": "Dark hero over a full-bleed media placeholder (swap for Background Video), two buttons, four trust badges."
+    },
+    {
+      "key": "process1",
+      "selector": "section.section_process1",
+      "name": "Process — numbered steps + image",
+      "category": "How It Works",
+      "desc": "Section header, four connected steps, link, tall media placeholder."
+    },
+    {
+      "key": "feature1",
+      "selector": "section.section_feature1",
+      "name": "Feature — list + floating stats card",
+      "category": "Feature",
+      "desc": "Three features with links beside a media placeholder overlaid by a dashboard-style stats card."
+    },
+    {
+      "key": "signup1",
+      "selector": "section.section_signup1",
+      "name": "Signup — inline lead magnet",
+      "category": "Signup Form",
+      "desc": "Centered card with email + button inline form and a supporting link."
+    },
+    {
+      "key": "layout1",
+      "selector": "section.section_layout1",
+      "name": "Layout — video + text",
+      "category": "Layout",
+      "desc": "Media with play button beside tagline, heading and body."
+    },
+    {
+      "key": "feature2",
+      "selector": "section.section_feature2",
+      "name": "Feature — checklist + map",
+      "category": "Feature",
+      "desc": "Heading, body, three checkmark benefits beside a map/media placeholder with link."
+    },
+    {
+      "key": "layout2",
+      "selector": "section.section_layout2",
+      "name": "Layout — centered header, image + icon list",
+      "category": "Layout",
+      "desc": "Centered section header, large image, three icon + text rows and a button."
+    },
+    {
+      "key": "testimonial1",
+      "selector": "section.section_testimonial1",
+      "name": "Testimonial — three cards",
+      "category": "Testimonial",
+      "desc": "Quote icon, title, quote, avatar initial, name and role. Cards fade up when the section scrolls into view.",
+      "ix": [
+        {
+          "type": "scroll-into-view",
+          "trigger": "section_testimonial1",
+          "initial": [
+            {
+              "type": "opacity",
+              "target": "testimonial1_card",
+              "value": 0
+            },
+            {
+              "type": "move",
+              "target": "testimonial1_card",
+              "y": 24
+            }
+          ],
+          "animate": [
+            {
+              "type": "opacity",
+              "target": "testimonial1_card",
+              "value": 1,
+              "duration": 700,
+              "easing": "outQuart"
+            },
+            {
+              "type": "move",
+              "target": "testimonial1_card",
+              "y": 0,
+              "duration": 700,
+              "easing": "outQuart"
+            }
+          ],
+          "note": "Cards fade up 24px over 700ms when the section is 10% in view. If the interaction is missing, the cards are simply visible."
+        }
+      ]
+    },
+    {
+      "key": "pricing1",
+      "selector": "section.section_pricing1",
+      "name": "Pricing — three plans",
+      "category": "Pricing",
+      "desc": "Three plan cards, featured middle plan with badge, feature checklists, full-width buttons."
+    },
+    {
+      "key": "logo1",
+      "selector": "section.section_logo1",
+      "name": "Logo — infinite marquee",
+      "category": "Logo List",
+      "desc": "Heading + continuously scrolling logo row. Pauses on hover, stops for reduced motion."
+    },
+    {
+      "key": "feature3",
+      "selector": "section.section_feature3",
+      "name": "Feature — 2×2 grid + stats + image",
+      "category": "Feature",
+      "desc": "Four features, four big stats between rules, wide image with caption."
+    },
+    {
+      "key": "blog1",
+      "selector": "section.section_blog1",
+      "name": "Blog — three cards",
+      "category": "Blog",
+      "desc": "Header with View all, three cards with tag, read time, title, excerpt, author/date. Swap list for a Collection List.",
+      "ix": [
+        {
+          "type": "hover-zoom",
+          "trigger": "blog1_item",
+          "image": "blog1_image"
+        }
+      ]
+    },
+    {
+      "key": "contact1",
+      "selector": "section.section_contact1",
+      "name": "Contact — benefits + form card",
+      "category": "Contact",
+      "desc": "Dark section with heading and checklist beside a white form card (2-column fields, selects, textarea)."
+    },
+    {
+      "key": "header2",
+      "selector": "section.section_header2",
+      "name": "Header — split with floating status card",
+      "category": "Hero Header",
+      "desc": "Tagline, H1, body and two buttons beside a bottom-anchored image with a floating status card; four trust badges in a band below."
+    },
+    {
+      "key": "feature4",
+      "selector": "section.section_feature4",
+      "name": "Feature — five benefits around a central image",
+      "category": "Feature",
+      "desc": "Centered header; two benefits left, a tall image in the middle, three benefits right. Stacks to two columns, then one."
+    },
+    {
+      "key": "stats1",
+      "selector": "section.section_stats1",
+      "name": "Stats — four big numbers",
+      "category": "Stats",
+      "desc": "Dark band with four large values, each with a label and supporting detail."
+    },
+    {
+      "key": "process2",
+      "selector": "section.section_process2",
+      "name": "Process — four horizontal steps",
+      "category": "How It Works",
+      "desc": "Section header and four numbered steps in a row joined by a line. Steps fade up when the section scrolls into view.",
+      "ix": [
+        {
+          "type": "scroll-into-view",
+          "trigger": "section_process2",
+          "initial": [
+            {
+              "type": "opacity",
+              "target": "process2_item",
+              "value": 0
+            },
+            {
+              "type": "move",
+              "target": "process2_item",
+              "y": 24
+            }
+          ],
+          "animate": [
+            {
+              "type": "opacity",
+              "target": "process2_item",
+              "value": 1,
+              "duration": 700,
+              "easing": "outQuart"
+            },
+            {
+              "type": "move",
+              "target": "process2_item",
+              "y": 0,
+              "duration": 700,
+              "easing": "outQuart"
+            }
+          ],
+          "note": "If the interaction is missing, the steps are simply visible."
+        }
+      ]
+    },
+    {
+      "key": "layout3",
+      "selector": "section.section_layout3",
+      "name": "Layout — three alternating image rows",
+      "category": "Layout",
+      "desc": "Centered header and three image/text rows that alternate sides, each with a highlighted takeaway."
+    },
+    {
+      "key": "signup2",
+      "selector": "section.section_signup2",
+      "name": "Signup — newsletter with image",
+      "category": "Signup Form",
+      "desc": "Image beside tagline, heading, body and an inline email form."
+    },
+    {
+      "key": "footer1",
+      "selector": "footer.footer1_component",
+      "name": "Footer — brand + five columns",
+      "category": "Footer",
+      "desc": "Logo, description, socials, five link columns, legal row."
+    }
+  ]
+}

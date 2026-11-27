@@ -1,0 +1,20 @@
+{
+  "slug": "csw-redesign",
+  "name": "Come See Why — Light at dusk",
+  "source": "csw-redesign homepage (live copy preserved)",
+  "fonts": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Work+Sans:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap",
+  "font_names": "Fraunces (400, 500) and Work Sans (400, 500, 600, italics)",
+  "blocks": [
+    {"key": "navbar", "selector": "header.navbar_component", "name": "Navbar — ivory with mega dropdowns", "category": "Navbar", "desc": "Sticky ivory bar, Find Hope and Learn full-width dropdowns, links, Start Here.", "nav": true},
+    {"key": "hero", "selector": "section.section_hero", "name": "Hero — cinematic photo + gradient", "category": "Hero Header", "desc": "Full-bleed photo with left gradient; stacks photo-over-text on mobile. CSS load reveal (reduced-motion safe)."},
+    {"key": "paths", "selector": "section.section_paths", "name": "Paths — sticky header + row list", "category": "Feature", "desc": "5/7 split; six full-row links with gold accent bar on hover/focus."},
+    {"key": "hope", "selector": "section.section_hope", "name": "Find Hope — copy + topic pills", "category": "Layout", "desc": "Copy and CTA beside 12 pill links."},
+    {"key": "truth", "selector": "section.section_truth", "name": "Explore Truth — header + six topic cards", "category": "Feature", "desc": "Header with CTA, 3:2 image cards, mobile-only bottom CTA.", "ix": [{"type": "hover-zoom", "trigger": "truth_card", "image": "truth_image"}]},
+    {"key": "jesus", "selector": "section.section_jesus", "name": "Meet Jesus — statement with rule", "category": "Layout", "desc": "Midnight section: heading + buttons left, long-form statement right."},
+    {"key": "lumen", "selector": "section.section_lumen", "name": "Meet Lumen — image + text", "category": "Layout", "desc": "Rounded image beside tagline, heading, body, button."},
+    {"key": "testimonies", "selector": "section.section_testimonies", "name": "Testimonies — centered interlude", "category": "CTA", "desc": "Sand section, decorative mark, centered copy and button."},
+    {"key": "blog", "selector": "section.section_blog", "name": "Blog — three posts", "category": "Blog", "desc": "Header with button, three stretched-link post cards.", "ix": [{"type": "hover-zoom", "trigger": "blog_item", "image": "blog_image"}]},
+    {"key": "cta", "selector": "section.section_cta", "name": "CTA — photo bookend", "category": "CTA", "desc": "Hero photo under midnight overlay, centered copy, two buttons."},
+    {"key": "footer", "selector": "footer.footer_component", "name": "Footer — brand + two columns", "category": "Footer", "desc": "Logo, description, two link columns, legal row."}
+  ]
+}
